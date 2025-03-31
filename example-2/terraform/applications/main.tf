@@ -6,13 +6,14 @@ terraform {
       version = "~> 3.0"
     }
   }
-  cloud {
-   organization = "yo_kash_project"
+   cloud { 
+    
+    organization = "barath_project_1" 
 
-   workspaces {
-     name = "yo_kash_project_fresh"
-   }
-  }
+    workspaces { 
+      name = "barath_project_1" 
+    } 
+  } 
 }
 
 
